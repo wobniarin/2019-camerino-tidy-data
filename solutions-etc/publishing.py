@@ -58,6 +58,14 @@ sns.barplot(
     hue='publisher' 
 )
 
+sns.lineplot(
+    data=subs.groupby(['publisher', 'year']).sum().reset_index(),
+    x='year',
+    y='cost',
+    hue='publisher'
+)
+
+
 # Some numbers to compare:
 #   - Annual Wellcome Trust grants: About £650M.
 #   - Annual UK R&D expenditure: About £11B.
