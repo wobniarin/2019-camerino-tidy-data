@@ -1,6 +1,0 @@
-# outline
-
-- intro to tabular data analysis with pandas
-- the split-apply-combine pattern with pandas
-- tidy and untidy data; plotting tidy data
-- data tidying
